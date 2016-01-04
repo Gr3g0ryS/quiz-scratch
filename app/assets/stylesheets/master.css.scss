@@ -1,0 +1,21 @@
+body {
+	background-color: #44B3C2;
+	font-family: 'Bree Serif', serif;
+}
+
+h1 {
+	color: #F2EDD8;
+}
+
+h2 {
+	color: #F1A94E;
+}
+
+.centered {
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: auto;
+}
