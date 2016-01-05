@@ -1,4 +1,9 @@
 <div class="centered">
 	<h1>Built from Scratch</h1>
-	<h2>Got the itch?</h2>
+	<h2>Got an itch?</h2>
+	<ul>
+<% @itches.each do |itch| %>
+		<li><%= itch.name %></li>
+		<% end %>
+</ul>
 </div>
